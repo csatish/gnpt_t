@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+
+.content-x-center {
+  display: flex;
+  justify-content: center;
+}
+
+.padding50 {
+  margin: 50px;
+}
+.content-dim {
+  max-width: 800px;
+  width: 80%;
+}
+.emp-filter-con {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.shadow-box {
+  margin: 5px 5px 10px 5px;
+  border-radius: 10px;
+  background: #f8f8f8;
+  box-shadow: 1px 2px 0px 1px #bcb5b5;
+  transition: transform .2s;
+}
